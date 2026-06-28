@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fleet Transport Kft. | Autó eladás és lízing</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background: #f4f6f8;
+
+      color: #111;
+
+    }
+
+    header {
+
+      background: #0a0a0a;
+
+      color: white;
+
+      padding: 60px 20px;
+
+      text-align: center;
+
+    }
+
+    header h1 {
+
+      font-size: 42px;
+
+      margin: 0;
+
+    }
+
+    header p {
+
+      color: #bbb;
+
+      margin-top: 10px;
+
+    }
+
+    .container {
+
+      max-width: 1100px;
+
+      margin: auto;
+
+      padding: 20px;
+
+    }
+
+    .section {
+
+      background: white;
+
+      margin-top: 20px;
+
+      padding: 20px;
+
+      border-radius: 12px;
+
+    }
+
+    .grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+      gap: 15px;
+
+    }
+
+    .car {
+
+      background: white;
+
+      border-radius: 12px;
+
+      padding: 15px;
+
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+
+    }
+
+    .price {
+
+      color: green;
+
+      font-weight: bold;
+
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      margin-top: 10px;
+
+      padding: 10px 14px;
+
+      border-radius: 6px;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+    }
+
+    .btn-dark {
+
+      background: black;
+
+      color: white;
+
+    }
+
+    .btn-blue {
+
+      background: #1e90ff;
+
+      color: white;
+
+    }
+
+    .topbar {
+
+      display: flex;
+
+      justify-content: center;
+
+      gap: 10px;
+
+      flex-wrap: wrap;
+
+      margin-top: 15px;
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      padding: 20px;
+
+      color: gray;
+
+      margin-top: 20px;
+
+    }
+
+    .badge {
+
+      display: inline-block;
+
+      background: #1e90ff;
+
+      color: white;
+
+      padding: 4px 8px;
+
+      border-radius: 5px;
+
+      font-size: 12px;
+
+      margin-bottom: 10px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>Fleet Transport Kft.</h1>
+
+  <p>Autó eladás • Lízing • Bérlés • Flotta megoldások</p>
+
+  <div class="topbar">
+
+    <a class="btn btn-blue" href="tel:+36301234567">📞 Hívás</a>
+
+    <a class="btn btn-dark" href="https://wa.me/36301234567">💬 WhatsApp</a>
+
+    <a class="btn btn-blue" href="#autok">🚗 Autók</a>
+
+  </div>
+
+</header>
+
+<div class="container">
+
+  <div class="section">
+
+    <h2>🚗 Rólunk</h2>
+
+    <p>
+
+      A Fleet Transport Kft. prémium használt autók értékesítésével,
+
+      lízing megoldásokkal és hosszú távú bérléssel foglalkozik.
+
+      Gyors ügyintézés, korrekt árak, megbízható járművek.
+
+    </p>
+
+  </div>
+
+  <div class="section">
+
+    <h2>⚡ Szolgáltatások</h2>
+
+    <p>
+
+      ✔ Használt autó eladás<br>
+
+      ✔ Operatív lízing<br>
+
+      ✔ Tartós bérlet<br>
+
+      ✔ Céges flottakezelés
+
+    </p>
+
+  </div>
+
+  <div class="section" id="autok">
+
+    <h2>🚘 Elérhető autók</h2>
+
+    <div class="grid">
+
+      <div class="car">
+
+        <div class="badge">ELADÓ</div>
+
+        <h3>BMW 320d</h3>
+
+        <p>2018 • Diesel • Automata</p>
+
+        <p class="price">5.500.000 Ft</p>
+
+        <a class="btn btn-dark" href="mailto:info@fleettransport.hu?subject=BMW 320d">Érdekel</a>
+
+      </div>
+
+      <div class="car">
+
+        <div class="badge">ELADÓ</div>
+
+        <h3>Audi A4</h3>
+
+        <p>2019 • Benzin • Automata</p>
+
+        <p class="price">6.200.000 Ft</p>
+
+        <a class="btn btn-dark" href="mailto:info@fleettransport.hu?subject=Audi A4">Érdekel</a>
+
+      </div>
+
+      <div class="car">
+
+        <div class="badge">ELADÓ</div>
+
+        <h3>Mercedes C220</h3>
+
+        <p>2020 • Diesel • Automata</p>
+
+        <p class="price">7.900.000 Ft</p>
+
+        <a class="btn btn-dark" href="mailto:info@fleettransport.hu?subject=Mercedes C220">Érdekel</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="section">
+
+    <h2>📩 Kapcsolat</h2>
+
+    <p>Email: info@fleettransport.hu</p>
+
+    <p>Telefon: +36 30 123 4567</p>
+
+    <a class="btn btn-blue" href="mailto:info@fleettransport.hu">Ajánlatot kérek</a>
+
+  </div>
+
+</div>
+
+<footer>
+
+  © 2026 Fleet Transport Kft. Minden jog fenntartva.
+
+</footer>
+
+</body>
+
+</html>
